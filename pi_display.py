@@ -11,6 +11,7 @@ def send_msg(str):
     lcd.clear()
     lcd.cursor_pos = 0, 0
     lcd.write_string(str[:32])
-    lcd.close()
-    GPIO.cleanup()
+    #Optional if one wants to clear the screen after message is sent.
+    #lcd.close()
+    #GPIO.cleanup()
     return True
