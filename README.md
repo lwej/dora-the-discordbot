@@ -13,7 +13,7 @@ secrets.py reads two textfiles:
 ## dora_launcher.sh
 ```
 #!/bin/sh
-# launcher.sh
+# dora_launcher.sh
 
 sleep 60
 
